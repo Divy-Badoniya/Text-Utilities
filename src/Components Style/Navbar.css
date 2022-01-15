@@ -1,0 +1,59 @@
+.my-nav
+{
+    margin: 0%;
+}
+
+.bg-dark
+{
+    background-color: black;
+}
+
+.bg-light
+{
+    background-color: white;
+}
+
+.my-flex
+{
+    display: flex;
+}
+
+.my-space
+{
+    justify-content: space-evenly;
+}
+
+.my-align
+{
+    align-items: center;
+}
+
+.my-text-light
+{
+    color: white;
+}
+
+.my-text-dark
+{
+    color: black;
+}
+
+.my-list-nostyle
+{
+    list-style: none;
+}
+
+.my-text-decor
+{
+    text-decoration: none;
+}
+
+.my-font-size-2
+{
+    font-size: 2vw;
+}
+
+.my-font-size-1-half
+{
+    font-size: 1.5vw;
+}
