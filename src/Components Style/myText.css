@@ -1,0 +1,24 @@
+.text-color-light
+{
+    color: white;
+}
+
+.text-color-dark
+{
+    color: black;
+}
+
+.text-decor-none
+{
+    text-decoration: none;
+}
+
+.font-size-2
+{
+    font-size: 2vw;
+}
+
+.font-size-1-half
+{
+    font-size: 1.5vw;
+}

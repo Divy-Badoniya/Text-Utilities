@@ -1,0 +1,29 @@
+.flex
+{
+    display: flex;
+}
+
+.col
+{
+    flex-direction: column;
+}
+
+.jst-even
+{
+    justify-content: space-evenly;
+}
+
+.jst-around
+{
+    justify-content: space-around;
+}
+
+.jst-between
+{
+    justify-content: space-between;
+}
+
+.align-center
+{
+    align-items: center;
+}
