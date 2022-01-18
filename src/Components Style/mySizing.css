@@ -11,9 +11,18 @@
     width: 70vw;
 }
 
+.ht-full
+{
+    height: 100%;
+}
 .ht-2
 {
     height: 2vw;
+}
+
+.ht-5
+{
+    height: 25vw;
 }
 
 .wd-full

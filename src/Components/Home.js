@@ -5,7 +5,7 @@ import '../Components Style/myBackGround.css'
 import '../Components Style/myPadandmar.css'
 import '../Components Style/mySizing.css'
 
-export default function Home() {
+export default function Home(props) {
     const [Text, setText] = useState('');
 
     const change = (event) => {
@@ -14,18 +14,22 @@ export default function Home() {
 
     const remXtraSpace = () =>{
         setText(Text.split(/[ ]+/).join(" "));
+        props.showalert("Extra spaces removed", "success");
     }
 
     const toUpper = () =>{
         setText(Text.toUpperCase());
+        props.showalert("Converted to UpperCase", "success");
     } 
 
     const toLower = () =>{
         setText(Text.toLowerCase());
+        props.showalert("Converted to LowerCase", "success");
     } 
 
     const Copy = () => {
         navigator.clipboard.writeText(Text);
+        props.showalert("Copied text to the Clipboard", "success");
     }
 
     return (

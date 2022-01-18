@@ -1,0 +1,17 @@
+.bdr
+{
+    border: 2px solid black;
+}
+
+.bdr-rad-2
+{
+    border-radius: 2px;
+}
+.bdr-rad-3
+{
+    border-radius: 3px;
+}
+.bdr-rad-5
+{
+    border-radius: 5px;
+}
