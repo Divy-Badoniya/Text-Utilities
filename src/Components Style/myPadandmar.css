@@ -27,3 +27,37 @@
 {
     margin: 5px;
 }
+
+.mx-20
+{
+    margin: 20px 0px;
+}
+
+.myt-5
+{
+    margin-top: 5px;
+}
+
+.myt-8
+{
+    margin-top: 8px;
+}
+
+.mxl-5
+{
+    margin-left: 5px;
+}
+
+.mxl-8
+{
+    margin-left: 8px;
+}
+.mxr-5
+{
+    margin-right: 5px;
+}
+
+.mxr-8
+{
+    margin-right: 8px;
+}

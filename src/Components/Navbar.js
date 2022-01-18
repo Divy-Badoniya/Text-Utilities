@@ -3,20 +3,22 @@ import '../Components Style/myFlexBox.css'
 import '../Components Style/myText.css'
 import '../Components Style/myBackGround.css'
 import '../Components Style/myPadandmar.css'
-import {Link} from "react-router-dom"
+import '../Components Style/myList.css'
+import '../Components Style/mySizing.css'
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
     return (
-        <nav className='bg-dark flex align-center pd-5'>
-            <li>
-                <a className='text-color-light text-decor-none font-size-2' href="/">Text Utilities</a>
-            </li>
+        <nav className='bg-light flex align-center pd-5'>
             <div className='flex jst-even align-center'>
-                <li>
-                    <Link className='text-color-light text-decor-none font-size-1-half' to="/">Home</Link>
+                <li className='list-style-nostyle mxl-8 mxr-8'>
+                    <Link className='text-color-dark text-decor-none font-size-2' to="/">Text Utilities</Link>
                 </li>
-                <li>
-                    <Link className='text-color-light text-decor-none font-size-1-half' to="/about">About</Link>
+                <li className='list-style-nostyle mxl-8 mxr-8'>
+                    <Link className='text-color-dark text-decor-none font-size-1-half' to="/">Home</Link>
+                </li>
+                <li className='list-style-nostyle mxl-8 mxr-8'>
+                    <Link className='text-color-dark text-decor-none font-size-1-half' to="/about">About</Link>
                 </li>
             </div>
         </nav>
